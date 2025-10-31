@@ -32,12 +32,17 @@ header p {
 
 /* Sections */
 section {
-  max-width: 600px;
+  max-width: 700px;
   margin: 20px auto;
-  padding: 15px;
+  padding: 20px 25px;
   background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+section:hover {
+  transform: translateY(-3px);
 }
 
 section h2 {
@@ -49,11 +54,14 @@ section h2 {
 a {
   color: #2980b9;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 a:hover {
+  color: #1b4f72;
   text-decoration: underline;
 }
+
 
 /* Footer */
 footer {
@@ -61,4 +69,23 @@ footer {
   margin-top: 40px;
   font-size: 0.9rem;
   color: #777;
+}
+
+/* Hero section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.profile-photo {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  border: 3px solid #2980b9;
 }
