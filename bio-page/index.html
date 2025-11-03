@@ -1,38 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="css/style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My personal site</title>
-  </head>
+<body id="top">
+  <!-- HEADER -->
+  <header>
+    <h1>Panagiotis Stivaktas</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  <body>
-  <header class="hero">
-  <img src="images/myface.jpg" alt="Profile photo of Panagiotis" class="profile-photo">
-  <div>
-    <h1>Hello, I'm Panagiotis Stivaktas 👋</h1>
-    <p>Front-End Web Developer | Passionate about creating clean & interactive websites</p>
-  </div>
-</header>
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <img src="images/myface.jpg" alt="Profile photo" class="profile-photo">
+    <div>
+      <h2>Hello, I'm Panagiotis Stivaktas 👋</h2>
+      <p>I'm an aspiring web developer passionate about building clean, responsive websites using HTML, CSS, and JavaScript.</p>
+      
+      <div class="social-icons">
+        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
 
-
-  <section class="about">
+  <!-- ABOUT -->
+  <section id="about">
     <h2>About Me</h2>
-    <p>I am learning web development and building projects to improve my skills in HTML, CSS, and JavaScript.</p>
+    <p>Hello! I'm Panagiotis, a beginner web developer passionate about learning HTML, CSS, and JavaScript to build modern web apps.</p>
   </section>
 
-  <section class="contact">
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>
+      <div class="projects-grid">
+      <div class="project-card">
+      <img src="images/project1.jpg" alt="Project 1">
+      <h3>Personal Portfolio</h3>
+      <p>A responsive personal website built with HTML and CSS.</p>
+      <a href="https://github.com/panostiv/portfolio" target="_blank">View on GitHub</a>
+      </div>
+
+      <div class="project-card">
+      <img src="images/project2.jpg" alt="Project 2">
+      <h3>Simple Landing Page</h3>
+      <p>A clean product landing page created for practice.</p>
+      <a href="https://github.com/yourusername/landing-page" target="_blank">View on GitHub</a>
+      </div>
+</div>
+</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
     <h2>Contact</h2>
-    <p>Email: pan.stivaktas@gmail.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/" target="_blank">Your LinkedIn</a></p>
-    <p>GitHub: <a href="https://github.com/panostiv" target="_blank">Your GitHub</a></p>
+    <p>Email: <a href="pan.stivaktas@gmail.com">pan.stivaktas@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/panostiv" target="_blank">github.com/panostiv</a></p>
   </section>
 
+  <!-- FOOTER -->
   <footer>
-    <p>© 2025 Stivaktas. All rights reserved.</p>
+    <p>© 2025 Panagiotis Stivaktas. All rights reserved.</p>
+    <a href="#top" class="back-to-top">↑ Back to top</a>
   </footer>
-</body>
 
+</body>
 </html>
